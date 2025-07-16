@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Score&apos;s Story</string>
+    <string name="shelem">Shelem</string>
+    <string name="hokm">Hokm</string>
+    <string name="games">games</string>
+    <string name="are_you_sure_you_want_to_delete_this">Are you sure you want to delete this?</string>
+    <string name="shelem_score">Shelem score</string>
+</resources>

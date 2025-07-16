@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbackimage">
+
+    <View
+        android:id="@+id/view0"
+        android:layout_width="50dp"
+        android:layout_height="0dp"
+        android:layout_margin="3dp"
+        android:background="@drawable/imagestart"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:background="@drawable/kingimage"
+        android:layout_marginHorizontal="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/shelem_btn"
+        app:layout_constraintEnd_toStartOf="@+id/view2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/view0"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.112" />
+    <View
+        android:id="@+id/view2"
+        android:layout_width="50dp"
+        android:layout_height="0dp"
+        android:layout_margin="3dp"
+        android:background="@drawable/iamgeend"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view" />
+
+    <View
+        android:id="@+id/view_0"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="3dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/bottonimage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/shelem_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/image1_edit"
+        android:drawableTop="@drawable/ic_spades"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/font_cardo_bold"
+        android:padding="10dp"
+        android:text="@string/shelem"
+        android:textColor="@color/green1"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btn_all_games_list"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintStart_toEndOf="@+id/view0"
+        app:layout_constraintTop_toBottomOf="@+id/view" />
+
+<!--    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/appCompatButton2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/image1_edit"
+        android:drawableTop="@drawable/ic_hearts"
+        android:fontFamily="@font/font_cardo_bold"
+        android:padding="10dp"
+        android:text="@string/hokm"
+        android:visibility=""
+        android:textColor="@color/green1"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/shelem_btn"
+        app:layout_constraintEnd_toStartOf="@+id/view2"
+        app:layout_constraintStart_toEndOf="@+id/shelem_btn"
+        app:layout_constraintTop_toTopOf="@+id/shelem_btn" />-->
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_all_games_list"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/image1_edit"
+        android:drawableEnd="@drawable/ic_menu"
+        android:fontFamily="@font/font_cardo_bold"
+        android:gravity="start|center"
+        android:padding="10dp"
+        android:text="@string/games"
+        android:textColor="@color/green1"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/view_0"
+        app:layout_constraintEnd_toEndOf="@+id/shelem_btn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/shelem_btn"
+        app:layout_constraintTop_toBottomOf="@+id/shelem_btn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

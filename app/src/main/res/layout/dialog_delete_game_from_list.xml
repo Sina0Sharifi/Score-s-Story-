@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="@drawable/dialog_background_green">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/cinzeldecorative_black"
+        android:text="@string/are_you_sure_you_want_to_delete_this"
+        android:textColor="@color/red2"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/delete_game"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/delete_game"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/button_background_red"
+        android:fontFamily="@font/font_cardo_bold"
+        android:padding="10dp"
+        android:text="Kill it"
+        android:textColor="@color/yellow"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/cancel_delete"
+        app:layout_constraintEnd_toStartOf="@+id/cancel_delete"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/cancel_delete" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/cancel_delete"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@drawable/button_background_yellow"
+        android:fontFamily="@font/font_cardo_bold"
+        android:padding="10dp"
+        android:text="Forgive it"
+        android:textColor="@color/red2"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/delete_game" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

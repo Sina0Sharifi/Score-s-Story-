@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/green1"
+    android:padding="24dp"
+    android:layout_gravity="center"
+    android:elevation="6dp">
+
+    <!-- Team 1 -->
+    <TextView
+        android:id="@+id/team1Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="team 1"
+        android:textColor="#EEDBB5"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/team1ScoreInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#CAB78F"
+        android:inputType="numberSigned"
+        android:textColor="#CAB78F"
+        android:textColorHint="#CAB78F"
+        android:maxLines="2"
+        android:maxLength="4"
+        android:hint="team 1 score"
+        android:padding="8dp" />
+
+    <!-- Spacer -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="12dp" />
+
+    <!-- Team 2 -->
+    <TextView
+        android:id="@+id/team2Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="team 2"
+        android:textColor="#EEDBB5"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/team2ScoreInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#CAB78F"
+        android:inputType="numberSigned"
+        android:textColor="#CAB78F"
+        android:textColorHint="#CAB78F"
+        android:maxLines="2"
+        android:maxLength="4"
+        android:hint="team 2 score"
+        android:padding="8dp" />
+
+    <!-- Spacer -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <!-- Add Button -->
+    <Button
+        android:id="@+id/btnAddScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add score"
+        android:textStyle="bold"
+        android:textColor="#163933"
+        android:textSize="18sp"
+        android:backgroundTint="#B77F3A"
+        android:padding="12dp" />
+</LinearLayout>

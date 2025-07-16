@@ -1,4 +1,4 @@
-package com.sinash.myapplication.view
+package com.sinash.ScoresStory.view
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
@@ -6,11 +6,10 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.lifecycle.lifecycleScope
-import com.sinash.myapplication.R
-import com.sinash.myapplication.database.local.DBHandler
-import com.sinash.myapplication.database.model.LastGameIdEntity
-import com.sinash.myapplication.databinding.ActivityMainBinding
-import com.sinash.myapplication.model.ScoreData
+import com.scores.story.R
+import com.scores.story.databinding.ActivityMainBinding
+import com.sinash.ScoresStory.database.local.DBHandler
+import com.sinash.ScoresStory.database.model.LastGameIdEntity
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

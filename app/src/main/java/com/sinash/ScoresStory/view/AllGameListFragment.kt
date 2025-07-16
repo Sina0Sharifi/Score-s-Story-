@@ -1,4 +1,4 @@
-package com.sinash.myapplication.view
+package com.sinash.ScoresStory.view
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -6,13 +6,13 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.sinash.myapplication.R
-import com.sinash.myapplication.adapter.AdapterAllGames
-import com.sinash.myapplication.adapter.GameItemClickListener
-import com.sinash.myapplication.database.local.DBHandler
-import com.sinash.myapplication.database.model.GameInfoEntity
-import com.sinash.myapplication.database.model.LastGameIdEntity
-import com.sinash.myapplication.databinding.FragmentAllGameListBinding
+import com.scores.story.R
+import com.scores.story.databinding.FragmentAllGameListBinding
+import com.sinash.ScoresStory.adapter.AdapterAllGames
+import com.sinash.ScoresStory.adapter.GameItemClickListener
+import com.sinash.ScoresStory.database.local.DBHandler
+import com.sinash.ScoresStory.database.model.GameInfoEntity
+import com.sinash.ScoresStory.database.model.LastGameIdEntity
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
@@ -25,7 +25,7 @@ class AllGameListFragment:Fragment(R.layout.fragment_all_game_list),GameItemClic
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding=FragmentAllGameListBinding.inflate(inflater)
+        binding= FragmentAllGameListBinding.inflate(inflater)
         val data= mutableListOf<GameInfoEntity>()
         val db = DBHandler.getDatabase(requireContext())
         binding.recyclerViewAllGame.layoutManager = LinearLayoutManager(requireContext())

@@ -1,4 +1,4 @@
-package com.sinash.myapplication.view
+package com.sinash.ScoresStory.view
 
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
@@ -15,17 +15,17 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.GridLayoutManager
 import com.google.android.material.bottomsheet.BottomSheetDialog
-import com.sinash.myapplication.R
-import com.sinash.myapplication.adapter.AdapterScore
-import com.sinash.myapplication.adapter.ScoreItemFunction
-import com.sinash.myapplication.database.local.DBHandler
-import com.sinash.myapplication.database.model.GameInfoEntity
-import com.sinash.myapplication.database.model.LastGameIdEntity
-import com.sinash.myapplication.database.model.ScoreEntity
-import com.sinash.myapplication.databinding.BottomSheetDialogBinding
-import com.sinash.myapplication.databinding.FragmentMaimPageBinding
-import com.sinash.myapplication.databinding.FragmentScoreListBinding
-import com.sinash.myapplication.databinding.PointCardViewBinding
+import com.scores.story.R
+import com.scores.story.databinding.BottomSheetDialogBinding
+import com.scores.story.databinding.FragmentScoreListBinding
+import com.scores.story.databinding.PointCardViewBinding
+
+import com.sinash.ScoresStory.adapter.AdapterScore
+import com.sinash.ScoresStory.adapter.ScoreItemFunction
+import com.sinash.ScoresStory.database.local.DBHandler
+import com.sinash.ScoresStory.database.model.GameInfoEntity
+import com.sinash.ScoresStory.database.model.LastGameIdEntity
+import com.sinash.ScoresStory.database.model.ScoreEntity
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

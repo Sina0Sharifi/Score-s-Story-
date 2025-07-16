@@ -1,7 +1,6 @@
-package com.sinash.myapplication.view
+package com.sinash.ScoresStory.view
 
 import android.content.Context
-import android.content.res.Resources.Theme
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
@@ -16,10 +15,10 @@ import androidx.appcompat.widget.AppCompatButton
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.lifecycleScope
-import com.sinash.myapplication.R
-import com.sinash.myapplication.database.local.DBHandler
-import com.sinash.myapplication.database.model.LastGameIdEntity
-import com.sinash.myapplication.databinding.FragmentMaimPageBinding
+import com.scores.story.R
+import com.scores.story.databinding.FragmentMaimPageBinding
+import com.sinash.ScoresStory.database.local.DBHandler
+import com.sinash.ScoresStory.database.model.LastGameIdEntity
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

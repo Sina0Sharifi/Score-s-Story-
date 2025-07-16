@@ -1,9 +1,9 @@
-package com.sinash.myapplication.database.model
+package com.sinash.ScoresStory.database.model
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.sinash.myapplication.database.local.DBHandler.Companion.GAME_INFO_TABLE
+import com.sinash.ScoresStory.database.local.DBHandler.Companion.GAME_INFO_TABLE
 
 @Entity(tableName = GAME_INFO_TABLE)
 data class GameInfoEntity(

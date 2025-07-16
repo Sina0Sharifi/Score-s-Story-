@@ -1,4 +1,4 @@
-package com.sinash.myapplication.model
+package com.sinash.ScoresStory.model
 
 data class ScoreData(
     var score1:Int,

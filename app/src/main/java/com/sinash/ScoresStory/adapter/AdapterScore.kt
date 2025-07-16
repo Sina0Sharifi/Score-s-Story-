@@ -1,4 +1,4 @@
-package com.sinash.myapplication.adapter
+package com.sinash.ScoresStory.adapter
 
 import android.content.Context
 import android.graphics.Color
@@ -11,9 +11,9 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.widget.AppCompatButton
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.sinash.myapplication.R
-import com.sinash.myapplication.database.model.ScoreEntity
-import com.sinash.myapplication.databinding.PointCardViewBinding
+import com.scores.story.R
+import com.scores.story.databinding.PointCardViewBinding
+import com.sinash.ScoresStory.database.model.ScoreEntity
 
 class AdapterScore(
     private val listener: ScoreItemFunction,

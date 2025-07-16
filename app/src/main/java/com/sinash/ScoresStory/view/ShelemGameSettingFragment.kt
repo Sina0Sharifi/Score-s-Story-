@@ -1,18 +1,17 @@
-package com.sinash.myapplication.view
+package com.sinash.ScoresStory.view
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
-import androidx.activity.OnBackPressedCallback
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
-import com.sinash.myapplication.R
-import com.sinash.myapplication.database.local.DBHandler
-import com.sinash.myapplication.database.model.GameInfoEntity
-import com.sinash.myapplication.database.model.LastGameIdEntity
-import com.sinash.myapplication.databinding.FragmentShelemGameSettingBinding
+import com.scores.story.R
+import com.scores.story.databinding.FragmentShelemGameSettingBinding
+import com.sinash.ScoresStory.database.local.DBHandler
+import com.sinash.ScoresStory.database.model.GameInfoEntity
+import com.sinash.ScoresStory.database.model.LastGameIdEntity
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

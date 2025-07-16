@@ -1,4 +1,4 @@
-package com.sinash.myapplication
+package com.sinash.ScoresStory
 
 import org.junit.Test
 

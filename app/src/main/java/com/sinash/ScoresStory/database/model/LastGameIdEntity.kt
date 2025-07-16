@@ -1,9 +1,9 @@
-package com.sinash.myapplication.database.model
+package com.sinash.ScoresStory.database.model
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.sinash.myapplication.database.local.DBHandler.Companion.LAST_GAME_ID_TABLE
+import com.sinash.ScoresStory.database.local.DBHandler.Companion.LAST_GAME_ID_TABLE
 
 @Entity(tableName = LAST_GAME_ID_TABLE)
 data class LastGameIdEntity(

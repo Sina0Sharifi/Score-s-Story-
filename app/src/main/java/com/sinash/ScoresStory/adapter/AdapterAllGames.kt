@@ -1,17 +1,16 @@
-package com.sinash.myapplication.adapter
+package com.sinash.ScoresStory.adapter
 
 import android.content.Context
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.widget.AppCompatButton
 import androidx.recyclerview.widget.RecyclerView
-import com.sinash.myapplication.R
-import com.sinash.myapplication.database.model.GameInfoEntity
-import com.sinash.myapplication.databinding.ItemGameCardViewBinding
+import com.scores.story.R
+import com.scores.story.databinding.ItemGameCardViewBinding
+import com.sinash.ScoresStory.database.model.GameInfoEntity
 
 class AdapterAllGames(
     private val listener: GameItemClickListener,

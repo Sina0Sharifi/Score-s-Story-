@@ -1,13 +1,13 @@
-package com.sinash.myapplication.database.local
+package com.sinash.ScoresStory.database.local
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.sinash.myapplication.database.local.DBHandler.Companion.DATABASE_VERSION
-import com.sinash.myapplication.database.model.GameInfoEntity
-import com.sinash.myapplication.database.model.LastGameIdEntity
-import com.sinash.myapplication.database.model.ScoreEntity
+import com.sinash.ScoresStory.database.local.DBHandler.Companion.DATABASE_VERSION
+import com.sinash.ScoresStory.database.model.GameInfoEntity
+import com.sinash.ScoresStory.database.model.LastGameIdEntity
+import com.sinash.ScoresStory.database.model.ScoreEntity
 
 @Database(
     entities = [ScoreEntity::class , GameInfoEntity::class ,LastGameIdEntity::class],

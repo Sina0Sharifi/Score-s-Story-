@@ -1,12 +1,11 @@
-package com.sinash.myapplication.database.local
+package com.sinash.ScoresStory.database.local
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
 import androidx.room.Update
-import com.sinash.myapplication.database.local.DBHandler.Companion.SCORE_TABLE
-import com.sinash.myapplication.database.model.GameInfoEntity
-import com.sinash.myapplication.database.model.ScoreEntity
+import com.sinash.ScoresStory.database.local.DBHandler.Companion.SCORE_TABLE
+import com.sinash.ScoresStory.database.model.ScoreEntity
 import kotlinx.coroutines.flow.Flow
 
 @Dao

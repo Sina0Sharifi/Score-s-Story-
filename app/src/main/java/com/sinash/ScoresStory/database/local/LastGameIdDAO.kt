@@ -1,11 +1,11 @@
-package com.sinash.myapplication.database.local
+package com.sinash.ScoresStory.database.local
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
 import androidx.room.Update
-import com.sinash.myapplication.database.local.DBHandler.Companion.LAST_GAME_ID_TABLE
-import com.sinash.myapplication.database.model.LastGameIdEntity
+import com.sinash.ScoresStory.database.local.DBHandler.Companion.LAST_GAME_ID_TABLE
+import com.sinash.ScoresStory.database.model.LastGameIdEntity
 
 @Dao
 interface LastGameIdDAO {

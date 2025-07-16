@@ -1,6 +1,6 @@
-package com.sinash.myapplication.adapter
+package com.sinash.ScoresStory.adapter
 
-import com.sinash.myapplication.database.model.ScoreEntity
+import com.sinash.ScoresStory.database.model.ScoreEntity
 
 interface ScoreItemFunction {
     fun editScoreClicked(score:ScoreEntity)

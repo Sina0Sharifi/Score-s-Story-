@@ -1,4 +1,4 @@
-package com.sinash.myapplication.adapter
+package com.sinash.ScoresStory.adapter
 
 interface GameItemClickListener {
     fun onGameItemClicked(gameId:Int)

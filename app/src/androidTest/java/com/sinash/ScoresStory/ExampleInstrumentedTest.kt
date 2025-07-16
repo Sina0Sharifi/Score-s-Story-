@@ -1,4 +1,4 @@
-package com.sinash.myapplication
+package com.sinash.ScoresStory
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

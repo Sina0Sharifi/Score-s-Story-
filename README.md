@@ -32,10 +32,6 @@ A simple yet functional Android application for **tracking scores in the card ga
 
 ## 🖼️ Screenshots
 
-> *(Add screenshots to the `screenshots/` folder and reference them below)*
-
-```markdown
-
 <img width="720" height="1180" alt="Home screen" src="https://github.com/user-attachments/assets/f501b971-40bf-4c14-b9a4-1f30af4311c6" />
 <img width="720" height="1180" alt="Game settings" src="https://github.com/user-attachments/assets/d941cef2-3362-4c5c-a971-fee26fdcf6db" />
 <img wid<img width="720" height="1180" alt="Score Screen" src="https://github.com/user-attachments/assets/21506d28-3b8f-41c4-bb7e-c170c35b22f7" />
